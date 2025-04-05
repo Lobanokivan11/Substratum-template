@@ -28,7 +28,13 @@ val ivKey = ByteArray(16).apply {
 }
 
 android {
-
+    signingConfigs {
+        release {
+            storeFile file("../sign.keystore")
+            storePassword "369852"
+            keyAlias "lob"
+            keyPassword "369852"
+        }
     compileSdk = 33
     defaultConfig {
         // If you're planning to change up the package name, ensure you have read the readme
