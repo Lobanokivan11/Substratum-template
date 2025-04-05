@@ -38,8 +38,6 @@ jobs:
       run: gradle assembleDebug
     - name: Build Release APK
       run: gradle assembleRelease
-    - name: Find
-      run: ls -lAR app/build/outputs
     - name: Nightly build
       uses: softprops/action-gh-release@v1
       with:
@@ -48,5 +46,5 @@ jobs:
         name: Debug Builds
         files: |
            app/build/outputs/apk/debug/app-debug.apk
-           app/build/outputs/apk/release/app-release.apk
+           app/build/outputs/apk/release/app-release-unsigned.apk
 
