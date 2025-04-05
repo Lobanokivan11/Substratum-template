@@ -70,7 +70,7 @@ android {
         getByName("release") {
             isMinifyEnabled = true
             proguardFiles(getDefaultProguardFile("proguard-android.txt"), "proguard-rules.pro")
-			signingConfig signingConfigs.release
+            signingConfig signingConfigs.release
 
             // Themers: DO NOT MODIFY
             buildConfigField("boolean", "ENFORCE_GOOGLE_PLAY_INSTALL", "$ENFORCE_GOOGLE_PLAY_INSTALL")
