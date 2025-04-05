@@ -35,7 +35,7 @@ android {
         	keyAlias = "lob"
         	keyPassword = "369852"
     	}
-	}
+    }
     compileSdk = 33
     defaultConfig {
         // If you're planning to change up the package name, ensure you have read the readme
