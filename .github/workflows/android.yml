@@ -23,8 +23,6 @@ jobs:
         cache: gradle
     - name: CHMOD GRADLEW
       run: chmod 777 ./gradlew
-    - name: Cache Gradle
-      uses: burrunan/gradle-cache-action@rel/3.0.1
     - name: Build with Gradle
       run: gradle build
     - name: Build Debug APK
