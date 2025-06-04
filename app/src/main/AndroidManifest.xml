@@ -37,9 +37,9 @@
                 <action android:name="android.intent.action.MAIN"/>
             </intent-filter>
         </activity>
-		<meta-data
-			android:name="OTGSubs_Supported"
-			android:value="true" />
+	<meta-data
+	    android:name="OTGSubs_Supported"
+	    android:value="true" />
         <meta-data
             android:name="Substratum_Legacy"
             android:value="@bool/ThemeSupportLegacy"/>
