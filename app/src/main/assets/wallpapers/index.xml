@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <substratum>
     <wallpaper id="Placeholder">
-        <link>assets://wallpapers/placeholder.jpg</link>
-        <preview>assets://wallpapers/placeholder.jpg</preview>
+        <link>file:///android_asset/wallpapers/placeholder.jpg</link>
+        <preview>file:///android_asset/wallpapers/placeholder.jpg</preview>
     </wallpaper>
 </substratum>
